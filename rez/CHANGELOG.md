@@ -1,5 +1,10 @@
 # Změny
 
+## 0.7.1
+
+- opraveno čtení konfigurace Home Assistantu,
+- opraveno spuštění zabezpečené ingress brány nginx.
+
 ## 0.7.0
 
 - lokální databáze SQLite bez Supabase,
