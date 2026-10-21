@@ -1,5 +1,15 @@
 # Změny
 
+## 0.8.0
+
+- samostatná HTTPS adresa REZ v domácí síti na portu 8090,
+- vlastní přihlášení a odhlášení zařízení, ochrana dokumentů i API,
+- vlastní ikona na ploše iPhonu přes Safari,
+- automatické místní certifikáty a jejich stažení z Nastavení,
+- zachovaný přístup přes Home Assistant i společná databáze,
+- ochrana před přepsáním novějších dat z jiného zařízení,
+- kontrola spuštění celého kontejneru před zveřejněním aktualizace.
+
 ## 0.7.1
 
 - opraveno čtení konfigurace Home Assistantu,
