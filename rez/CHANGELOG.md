@@ -1,5 +1,11 @@
 # Změny
 
+## 0.8.1
+
+- opraveno stahování místního certifikátu z Nastavení (chyba 403),
+- soukromé TLS klíče zůstávají v chráněné složce,
+- test stahování certifikátu přes nginx před vydáním i po restartu.
+
 ## 0.8.0
 
 - samostatná HTTPS adresa REZ v domácí síti na portu 8090,
