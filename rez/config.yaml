@@ -1,5 +1,5 @@
 name: REZ
-version: "0.7.1"
+version: "0.8.0"
 slug: rez
 description: Soukromá evidence domácnosti, spotřebičů, oprav a dokumentů.
 url: https://github.com/stredak/REZ-HAOS
@@ -13,7 +13,17 @@ ingress_port: 8099
 panel_icon: mdi:home-cog
 panel_title: REZ
 image: ghcr.io/stredak/rez-haos
+ports:
+  8090/tcp: 8090
+ports_description:
+  8090/tcp: Samostatný REZ přes HTTPS v domácí síti
 options:
   openai_api_key: ""
+  local_username: martin
+  local_password: ""
+  local_address: homeassistant.local
 schema:
   openai_api_key: password?
+  local_username: str
+  local_password: password
+  local_address: str
