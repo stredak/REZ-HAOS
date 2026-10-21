@@ -1,0 +1,19 @@
+name: REZ
+version: "0.7.0"
+slug: rez
+description: Soukromá evidence domácnosti, spotřebičů, oprav a dokumentů.
+url: https://github.com/stredak/REZ-HAOS
+arch:
+  - amd64
+startup: application
+boot: auto
+init: false
+ingress: true
+ingress_port: 8099
+panel_icon: mdi:home-cog
+panel_title: REZ
+image: ghcr.io/stredak/rez-haos
+options:
+  openai_api_key: ""
+schema:
+  openai_api_key: password?
