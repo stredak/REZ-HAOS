@@ -1,5 +1,10 @@
 # Změny
 
+## 0.9.1
+
+- číslo aktuálně otevřené verze je viditelné v Nastavení → O aplikaci také na iPhonu,
+- verze se načítá automaticky ze sestavení aplikace.
+
 ## 0.9.0
 
 - automatické denní kompletní zálohy včetně dokumentů, historie sedmi dnů a stažení z Nastavení,
