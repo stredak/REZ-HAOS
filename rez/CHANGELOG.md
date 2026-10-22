@@ -1,5 +1,13 @@
 # Změny
 
+## 0.9.0
+
+- automatické denní kompletní zálohy včetně dokumentů, historie sedmi dnů a stažení z Nastavení,
+- volitelná kopie záloh do sdílené složky Home Assistantu,
+- obnova rozepsaných formulářů v telefonu nebo počítači,
+- upozornění při nedostupném REZ, vypršelém přihlášení a neuložených změnách,
+- opakování uložení po návratu na domácí síť a ochrana souběžných úprav.
+
 ## 0.8.1
 
 - opraveno stahování místního certifikátu z Nastavení (chyba 403),
