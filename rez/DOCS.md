@@ -1,5 +1,15 @@
 # REZ pro Home Assistant OS
 
+## Zálohy a rozpracované změny (od 0.9.0)
+
+REZ automaticky jednou denně vytvoří kompletní ZIP evidence a dokumentů do svého úložiště `/data/backups`. Kontrola se spustí minutu po startu a potom každou hodinu. Uchovává se nejnovější úplná záloha za každý z posledních sedmi zálohovaných dnů. V Nastavení REZ je datum posledního úspěchu, případná chyba, ruční spuštění i stažení ZIPů. Pokud chybí příloha, neúplná záloha nenahradí poslední úplnou.
+
+Zálohy na stejném disku nejsou ochranou proti poruše notebooku. Pravidelně si stáhněte kopii mimo notebook a zálohujte také celý HAOS. Volba `auto_backup` automatické zálohy vypíná nebo zapíná. Volitelná `backup_copy_to_share` navíc kopíruje ZIP do `/share/rez-backups` — je-li sdílená složka na stejném disku, stále nejde o nezávislou zálohu. Do ZIPu REZ nepatří hesla, OpenAI klíč ani soukromé certifikáty.
+
+Text rozepsaných formulářů se uchovává sedm dní pouze v prohlížeči daného zařízení. Po obnovení stránky zvolte u rozpracovaného formuláře **Pokračovat**. Přílohy je z bezpečnostních důvodů nutné vybrat znovu. Uložením formuláře se koncept odstraní; tlačítkem **Zahodit** jej lze smazat ručně.
+
+Při ztrátě domácí Wi-Fi REZ označí neuložené změny a pokusí se je uložit po návratu spojení. Pokud mezitím evidenci změnilo jiné zařízení, novější data nepřepíše: nabídne stažení rozpracovaných změn a načtení aktuální domácnosti. Aplikace bez VPN nefunguje mimo domácí síť a první otevření vyžaduje připojení k REZ.
+
 ## Samostatná ikona REZ (od 0.8.0)
 
 Aktualizace zachovává databázi i dokumenty. Aplikaci neodinstalovávejte.
