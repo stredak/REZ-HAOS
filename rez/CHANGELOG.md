@@ -1,5 +1,11 @@
 # Změny
 
+## 0.9.2
+
+- upozornění na Přehledu otevírají příslušnou opravu nebo údržbu spotřebiče,
+- počet upozornění rozbalí úplný seznam bez omezení na pět položek,
+- klikatelné řádky mají šipku, zvýraznění a ovládání z klávesnice.
+
 ## 0.9.1
 
 - číslo aktuálně otevřené verze je viditelné v Nastavení → O aplikaci také na iPhonu,
